@@ -8,5 +8,3 @@ if __name__ == '__main__':
     jafar.set_emp_code(11)
     print(jafar.get_emp_code())
 
-    jafar.__emp_code = 23
-    jafar.__emp_code = 56
