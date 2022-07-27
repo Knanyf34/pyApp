@@ -1,8 +1,4 @@
-
-
 from teacher import Teacher
-from student import Student
-
 
 if __name__ == '__main__':
     jafar = Teacher('Jafa', 'Jafari', 123)
@@ -13,5 +9,4 @@ if __name__ == '__main__':
     print(jafar.get_emp_code())
 
     jafar.__emp_code = 23
-
-
+    jafar.__emp_code = 56
